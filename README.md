@@ -14,5 +14,5 @@ To run:
 - Clone the repo.
 - Run "npm install".
 - Run "npm start".
-- The application is available at localhost:4173.
+- The application is available at http://localhost:4173/
 
