@@ -1,0 +1,280 @@
+#brushSizeButton {
+  background-image: url('/img/brush_size.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 60px;
+  left: 165px;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+}
+
+#brushSizeButton:hover::after {
+  content: "Brush size";
+  position: absolute;
+  top: -20px;
+  left: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 10px;
+}
+
+.brushSizeContainer, .brushColorContainer, .erasorContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.singleBrushSizeConfigButton, .singleErasorSizeConfigButton {
+  background-color: lightcyan;
+  display: inline-block; 
+  height: 32px;
+  width: 32px;
+  top: 10px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50px;
+  transition: transform 0.001s ease;
+  animation: fadeIn 0.2s ease-out;
+  z-index: 1;
+}
+
+.singleBrushSizeConfigButton:nth-child(1) {
+  left: 30px;
+}
+
+.singleBrushSizeConfigButton:nth-child(2) {
+  left: 65px;
+}
+
+.singleBrushSizeConfigButton:nth-child(3) {
+  left: 100px;
+}
+
+.singleBrushSizeConfigButton:nth-child(4) {
+  left: 135px;
+}
+
+.singleBrushSizeConfigButton:nth-child(5) {
+  left: 170px;
+}
+
+.singleBrushSizeConfigButton:nth-child(6) {
+  left: 205px;
+}
+
+.singleBrushSizeConfigButton:nth-child(7) {
+  left: 240px;
+}
+
+.singleBrushSizeConfigButton:nth-child(8) {
+  left: 275px;
+}
+
+.singleBrushSizeConfigButton:hover {
+  transform: scale(1.1);
+}
+
+.singleBrushSizeConfigButton:active {
+  transform: scale(1);
+}
+
+#brushColorButton {
+  background-image: url('/img/colors.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  position: absolute;
+  top: 60px;
+  left: 245px;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+}
+
+#brushColorButton:hover::after {
+  content: "Brush color";
+  position: absolute;
+  top: -20px;
+  left: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 10px;
+}
+
+.singleBrushColorConfigButton {
+  background-color: lightcyan;
+  display: inline-block; 
+  height: 32px;
+  width: 32px;
+  top: 10px;
+  border-radius: 16px;
+  position: absolute;
+  left: 150px;
+  transition: transform 0.001s ease;
+  animation: fadeIn 0.2s ease-out;
+  z-index: 1;
+}
+
+.singleBrushColorConfigButton:nth-child(1) {
+  left: 75px;
+}
+
+.singleBrushColorConfigButton:nth-child(2) {
+  left: 110px;
+}
+
+.singleBrushColorConfigButton:nth-child(3) {
+  left: 145px;
+}
+
+.singleBrushColorConfigButton:nth-child(4) {
+  left: 180px;
+}
+
+.singleBrushColorConfigButton:nth-child(5) {
+  left: 215px;
+}
+
+.singleBrushColorConfigButton:nth-child(6) {
+  left: 250px;
+}
+
+.singleBrushColorConfigButton:nth-child(7) {
+  left: 285px;
+}
+
+.singleBrushColorConfigButton:nth-child(8) {
+  left: 320px;
+}
+
+.singleBrushColorConfigButton:nth-child(9) {
+  left: 355px;
+}
+
+.singleBrushColorConfigButton:nth-child(10) {
+  left: 390px;
+}
+
+.singleBrushColorConfigButton:hover {
+  transform: scale(1.1);
+}
+
+.singleBrushColorConfigButton:active {
+  transform: scale(1);
+}
+
+#erasorButton {
+  background-image: url('/img/erasor.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 60px;
+  right: 245px;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+}
+
+#erasorButton:hover::after {
+  content: "Erasor size";
+  position: absolute;
+  top: -20px;
+  left: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 10px;
+}
+
+.singleErasorSizeConfigButton:nth-child(1) {
+  left: 155px;
+}
+
+.singleErasorSizeConfigButton:nth-child(2) {
+  left: 190px;
+}
+
+.singleErasorSizeConfigButton:nth-child(3) {
+  left: 225px;
+}
+
+.singleErasorSizeConfigButton:nth-child(4) {
+  left: 260px;
+}
+
+.singleErasorSizeConfigButton:nth-child(5) {
+  left: 295px;
+}
+
+.singleErasorSizeConfigButton:nth-child(6) {
+  left: 330px;
+}
+
+.singleErasorSizeConfigButton:nth-child(7) {
+  left: 365px;
+}
+
+.singleErasorSizeConfigButton:nth-child(8) {
+  left: 400px;
+}
+
+.singleErasorSizeConfigButton:nth-child(9) {
+  left: 435px;
+}
+
+.singleErasorSizeConfigButton:nth-child(10) {
+  left: 470px;
+}
+
+.singleErasorSizeConfigButton:hover {
+  transform: scale(1.1);
+}
+
+.singleErasorSizeConfigButton:active {
+  transform: scale(1);
+}
+
+#clearPaintButton {
+  background-image: url('/img/clear_paint.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 60px;
+  right: 165px;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+}
+
+#clearPaintButton:hover::after {
+  content: "Clear paint";
+  position: absolute;
+  top: -20px;
+  left: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 10px;
+}
+
+#brushSizeButton:hover, #brushColorButton:hover, #erasorButton:hover, #clearPaintButton:hover {
+  transform: scale(1.1);
+}
+
+#brushSizeButton:active, #brushColorButton:active, #erasorButton:active, #clearPaintButton:active {
+  transform: scale(1);
+}
