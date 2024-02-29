@@ -1,4 +1,4 @@
-# PWD - Personal Web Desktop
+# Personal Web Desktop
 
 <img src="./PWA_pic.png" alt="PWA_pic.png" style="height: 500px; width:800px;"/>
 
